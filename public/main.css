@@ -1,0 +1,76 @@
+/* Style inputs */
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+  /* Style the submit button */
+  button {
+    width: 100%;
+    background-color: green;
+    color: greenyellow;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  /* Add a background color to the submit button on mouse-over */
+  button:hover {
+    background-color: greenyellow;
+    color: green;
+  }
+
+body {
+    background-image: url("http://2018.igem.org/wiki/images/a/a4/T--ETH_Zurich--conference.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: green;
+    font-family: "Roboto";
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Sofia";
+    font-size: 25px;
+}
+.header {
+    color: black;
+}
+.form {
+    background-color: darkgreen;
+    color: white;
+    text-align: left;
+    border: 0px darkgrey solid;
+    border-radius: 8px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.textdetails {
+    width: auto;
+}
+
+.centered-wrapper {
+    position: relative;
+    text-align: center;
+}
+.centered-wrapper:before {
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 0; height: 100%;
+    vertical-align: middle;
+}
+.centered-content {
+    display: inline-block;
+    vertical-align: middle;
+}
