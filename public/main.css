@@ -12,8 +12,8 @@ input, select {
   /* Style the submit button */
   button {
     width: 100%;
-    background-color: green;
-    color: greenyellow;
+    background-color: blue;
+    color: lightblue;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -23,15 +23,15 @@ input, select {
   
   /* Add a background color to the submit button on mouse-over */
   button:hover {
-    background-color: greenyellow;
-    color: green;
+    background-color: green;
+    color: white;
   }
 
 body {
-    background-image: url("http://2018.igem.org/wiki/images/a/a4/T--ETH_Zurich--conference.jpeg");
+    background-image: url("https://wallpapersmug.com/large/fb6f49/sunset-horizon-mountains-valley.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: green;
+    background-color: blue;
     font-family: "Roboto";
     color: white;
     margin: auto;

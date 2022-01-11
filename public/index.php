@@ -23,9 +23,9 @@
             <div class="form">
                 <form id="survey-form" action="#" method="POST">
                     <label id="name-label" for="name">Name</label>
-                    <input id="name" type="text" placeholder="name">
+                    <input id="name" type="text" placeholder="name" required>
                     <label id="email-label" for="email">eMail</label>
-                    <input id="email" type="email" placeholder="email">
+                    <input id="email" type="email" placeholder="email" required>
                     <label id="number-label" for="number">Number</label>
                     <input id="number" type="number" min="0" max="100" placeholder="number">
                     <label for="dropdown">Country</label>
