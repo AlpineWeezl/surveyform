@@ -19,25 +19,61 @@
         </div>
     </header>
     <main>
-        <div>
-            <div class="form">
-                <form id="survey-form" action="#" method="POST">
-                    <label id="name-label" for="name">Name</label>
-                    <input id="name" type="text" placeholder="name" required>
-                    <label id="email-label" for="email">eMail</label>
-                    <input id="email" type="email" placeholder="email" required>
-                    <label id="number-label" for="number">Number</label>
-                    <input id="number" type="number" min="0" max="100" placeholder="number">
-                    <label for="dropdown">Country</label>
-                    <select id="dropdown" name="dropdown">
-                        <option value="australia">Australia</option>
-                        <option value="canada">New Zealand</option>
-                        <option value="canada">Germany</option>
-                        <option value="usa">USA</option>
-                    </select>
+        <div id="main">
+            <form class="form" id="survey-form" action="#" method="POST">
+                <label id="name-label" for="name">Name</label>
+                <input id="name" type="text" placeholder="Max Mustermann" required>
+                <label id="email-label" for="email">eMail</label>
+                <input id="email" type="email" placeholder="example@provider.com" required>
+                <label id="number-label" for="number">Income</label>
+                <input id="number" type="number" min="0" max="1000000" placeholder="0-1000000">
+                <select id="dropdown" name="dropdown">
+                    <option value="australia">Australia</option>
+                    <option value="canada">New Zealand</option>
+                    <option value="canada">Germany</option>
+                    <option value="usa">USA</option>
+                </select>
+                <hr>
+                <h3>Choices</h3>
+                <div class="checkbox-container">
+                    <input id="checkbox_1" class="checkbox" type="checkbox" value="Checkbox_1">
+                    <label id="checkbox_1-label" for="checkbox_1">Checkbox 1</label>
+                </div>
+                <div class="checkbox-container">
+                    <input id="checkbox_2" class="checkbox" type="checkbox" value="Checkbox_2">
+                    <label id="checkbox_2-label" for="checkbox_2">Checkbox 2</label>
+                </div>
+                <div class="checkbox-container">
+                    <input id="checkbox_3" class="checkbox" type="checkbox" value="Checkbox_3">
+                    <label id="checkbox_3-label" for="checkbox_3">Checkbox 3</label>
+                </div>
+                <div class="checkbox-container">
+                    <input id="checkbox_4" class="checkbox" type="checkbox" value="Checkbox_4">
+                    <label id="checkbox_4-label" for="checkbox_4">Checkbox 4</label>
+                </div>
+                <hr>
+                <h3>Gender</h3>
+                <div class="radiobutton-container">
+                    <input type="radio" name="gender" id="radio_1" value="female">
+                    <label for="radio_1">female</label>
+                </div>
+                <div class="radiobutton-container">
+                    <input type="radio" name="gender" id="radio_2" value="female">
+                    <label for="radio_1">male</label>
+                </div>
+                <div class="radiobutton-container">
+                    <input type="radio" name="gender" id="radio_3" value="non-binary">
+                    <label for="radio_1">non-binary</label>
+                </div>
+                <hr>
+                <label id="comment-label" for="comment">comment</label>
+                <textarea id="comment" placeholder="Place your comment here"></textarea>
+                <label for="dropdown">Country</label>
+                <div class="button-container">
                     <button id="submit" type="submit">Submit</button>
-                </form>
-            </div>
+                    <button id="cancel" type="reset">Cancel</button>
+                </div>
+            </form>
         </div>
     </main>
     <footer>
